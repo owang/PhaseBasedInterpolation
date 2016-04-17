@@ -4,7 +4,7 @@
 
 %%
 im1 = (imread('data/frame07.png'));
-im2 = (imread('data/frame11.png'));
+im2 = (imread('data/frame10.png'));
 
 addpath('matlabPyrTools');
 addpath('matlabPyrTools/Mex');

@@ -17,4 +17,6 @@ Note: If you use this software, you *must* cite the following work:
 
 This implementation also includes some lightly-modified libraries from Eero Simoncelli's wonderful MatlabPyrTools. For more information on these tools, and the restrictions of use, refer to the [webpage](https://github.com/LabForComputationalVision/matlabPyrTools).
 
+The sample images in ./data/ are from the [Middlebury Optical Flow](http://vision.middlebury.edu/flow/) dataset. If you use these in publication, refer to their webpage for restrictions.
+
 Run demo.m to get started
