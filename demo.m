@@ -16,16 +16,16 @@ addpath('matlabPyrTools/Mex');
 % Number of frames to interpolate
 params.nFrames = 7;
 
-% Number of orientations in the steerable pyramid
+% Number of orientations in the steerable pyramid (more = more accurate but slower)
 params.nOrientations = 8;
 
 % Width of transition region
 params.tWidth = 1;
 
-% Steepness of the pyramid
+% Steepness of the pyramid (smaller = slower)
 params.scale = 0.5^(1/4);
 
-% Maximum allowed shift in radians
+% Maximum allowed shift in radians (larger = more motion, but more artifacts)
 params.limit = 0.2;
 
 % Number of levels of the pyramid
