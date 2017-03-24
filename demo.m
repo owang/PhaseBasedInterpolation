@@ -26,7 +26,7 @@ params.tWidth = 1;
 params.scale = 0.5^(1/4);
 
 % Maximum allowed shift in radians (larger = more motion, but more artifacts)
-params.limit = 0.2;
+params.limit = 0.4;
 
 % Number of levels of the pyramid
 params.min_size = 15;
